@@ -1,0 +1,1012 @@
+/* [type="text"]
+{
+    background-color:  bisque;
+}
+[type="password"]
+{
+    background-color:  rgb(109, 63, 6);
+} */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 6000px;
+}
+.subline
+{
+    bottom: 40px;
+}
+.parent
+{
+    height: 120vh;
+    width :100%;
+    background-image:url(../picture/wp6397768-artificial-intelligence-hd-wallpapers.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.opac
+{
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+.header
+{
+    z-index: 20;
+    position: fixed;
+    width:100%;
+    height:60px;
+    top: 0;
+    margin-bottom:20px;
+    background-color: #0077b6;
+}
+.blogpost
+{
+    z-index: 30;
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    text-align: center;
+    margin-left: 1140px;
+    margin-top: 5px;
+    visibility: hidden;
+}
+.header .blog a:hover .blogpost
+{
+    visibility: visible;
+}
+.blogpost strong
+{
+    position: relative;
+    top: 10px;
+    color: white;
+}
+.list
+{
+    list-style-type: none;
+    float: right;
+    margin-top: 15px;
+}
+.list li
+{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+.list li a
+{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(240, 245, 245);
+    font-size: 25px;
+}
+.list li::after
+{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 30px;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: 0.5s;
+}
+.list li:hover::after
+{
+    width: 100%;
+    visibility: visible;
+}
+.t1
+{
+    position: relative;
+    font-size: 38px;
+    bottom: 3px;
+    left: 4px;
+}
+.t2
+{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    color:#0077b6;
+    font-style: italic;
+    font-size: 70px;
+}
+.t3
+{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 25px;
+    top: 120px;
+    left: 30px;
+}
+.b1
+{
+    position: relative;
+    left: 70px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border:2px solid #0077b6;
+    text-align: center;
+    float: left;
+    right: 50px;
+    bottom: 50px;
+    margin-right: 90px;
+    overflow: hidden;
+}
+.b1::after
+{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 40px;
+    transition: 1s;
+    background-color:#0077b6;
+}
+.b1:hover::after
+{
+    width: 100%;
+}
+.s1
+{
+    z-index: 2;
+    text-decoration: none;color: rgb(253, 252, 252);position: relative;top: 7px;font-size: 20px;
+}
+.b1:hover .s1{color: white;}
+.parent2
+{
+   height: 100vh;
+   width: 100%; 
+   background-color: white;
+   position: relative;
+   overflow: hidden;
+}
+.head
+{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    color: rgb(5, 5, 5);
+    position: relative;
+    top: 70px;
+}
+.hr1
+{
+    position: relative;
+    left: 610px;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(8, 8, 8);
+}
+.card1
+{
+    z-index: 0;
+    position: relative;
+    width: 350px;
+    height: 230px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 65px;
+    margin-top: 130px;
+    text-align: center;
+}
+.card1::after
+{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    background-color: rgb(72, 202, 228,0.5);
+    transition: 0.5s;
+}
+.card1:hover::after
+{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.thy
+{
+    position: relative;
+    z-index: 9;
+}
+.wpop
+{
+    transition: 1s;
+    color: black;
+}
+.card1:hover .wpop
+{
+    color: white;
+}
+.wpoi
+{
+    transition: 1s;
+    color: rgb(0, 0, 0);
+}
+.card1:hover .wpoi
+{
+    color: rgb(255, 255, 255)
+}
+.head2
+{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    color: rgb(5, 5, 5);
+    position: relative;
+    top: 40px;
+}
+.parent3
+{
+   height: 850px;
+   width: 100%;
+   background-color: #fdfdfd;
+   overflow: hidden;
+
+}
+.featured-works
+{
+    margin: auto;
+    width: 80%;
+    overflow: auto;
+}
+.block
+{
+  position: relative;  
+  float: left;
+  background-color: #4cc9f0;
+  width: 30%;
+  text-align: center;
+  padding: 20px 24px;
+  margin-top: 105px;
+  margin-bottom: 40px;
+}
+.block-info
+{
+    text-align: center;
+}
+.block::after
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+.block:hover::after
+{
+    visibility: visible;
+    background-color: rgba(2, 62, 138,0.5);
+}
+.block-info h1
+{
+    position: relative;
+    z-index: 5;
+}
+.block:hover .block-info .wordw1
+{
+    visibility: visible;
+    bottom: 35px;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.block .block-info h1
+{
+    color: black;
+}
+.block:hover .block-info h1
+{
+    color: white;
+} 
+.wordw1
+{
+   visibility: hidden; 
+   position: relative;
+   bottom: 4px;
+   text-align: center;
+}
+.x1
+{
+    position: relative;left: 30px;
+}
+.block-info p
+{
+    position: relative;z-index: 5;
+}
+.block:hover .block-info .wordw2
+{
+    visibility: visible;
+    bottom: 25px;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+.block .block-info p
+{
+    color: black;
+}
+.block:hover .block-info p
+{
+    color: white;
+} 
+.wordw2
+{
+   visibility: hidden; 
+   position: relative;
+   bottom: 8px;
+}
+.block-info i
+{
+    position: relative;
+    z-index: 5;
+}
+.block:hover .block-info .wordw3
+{
+    visibility: visible;
+    bottom: 15px;
+    transition: 1s;
+    transition-delay: 1.25s;
+}
+.block .block-info i
+{
+    color: black;
+}
+.block:hover .block-info i
+{
+    color: #4361ee;
+} 
+.wordw3
+{ 
+   visibility: hidden; 
+   position: relative;
+   bottom: 8px;
+   font-size: 25px;
+}
+.qw
+{
+    margin: 0px 5%;
+    margin-top: 105px;
+}
+.png img
+{
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+.png
+{
+    position: relative;
+}
+.block-info
+{
+    position: absolute;
+    bottom: 80px;
+    left: 105px;
+}
+.head3
+{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    color: rgb(5, 5, 5);
+    position: relative;
+    top: 40px;
+}
+.zx
+{
+    position: relative;
+    top: 10px;
+}
+.oop
+{
+    margin-top: 90px;
+}
+.what-we-offer
+{
+    width: 100%;
+    height: 700px;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+.why-choose-us
+{
+  width: 100%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  overflow: hidden;
+}
+.head4
+{
+    font-size: 45px;
+    font-style: italic;
+    color: #0d0d0e;
+    position: relative;
+    top: 40px;  
+    left: 80px; 
+}
+.hr2
+{
+    position: relative;
+    width: 10%;
+    color: black;
+    height: 3px;
+    top: 55px;
+    left: 130px;
+}
+.char p
+{
+    display: inline;
+}
+.why-choose-us-icon i
+{
+    font-size:22px;
+    position:relative;
+    right:10px;
+    color: #3a0ca3;
+}
+.why-choose-us-icon p
+{
+     font-size:22px;
+     font-weight: 900;
+}
+.why-choose-us-info-p
+{
+    position: relative;
+    top: 100px;  
+    left: 80px;
+    font-size:22px;
+    font-weight: 900;
+}
+.char
+{
+    margin-top: 150px;
+    margin-left: 80px;
+    float: left;
+    margin-right: 400px;
+}
+.why-choose-us-icon
+{
+    margin-top: 10px;
+}
+.killer
+{
+    position: relative;
+}
+.killer:hover
+{
+    color: #473968;
+}
+.circles
+{
+    position: relative;
+    left: 1000px;
+}
+.circles i
+{
+    color:#3a0ca3;
+}
+.source
+{
+   position: relative;
+   bottom: 13px;
+   left:50px;
+}
+.opastic
+{
+    width: 100%;
+    height: 140vh;
+    bottom: 0px;
+    background-image: url(../iop/375017.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.opastic2
+{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(8, 8, 8,0.5);
+    position: relative;
+}
+.opastic3
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(107, 104, 104)
+}
+.opastic-content-1
+{
+    float: left;
+    margin-top: 100px;
+    margin-left: 190px;
+    text-align: center;
+}
+.opastic-content-1 i
+{
+    font-size: 35px;
+    color: #480ca8;
+}
+.opastic-content-1 strong
+{
+    font-size: 22px;
+    color: white;
+}
+.pricing-table
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+}
+.pricing-table-1
+{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    border: 2px solid #7b2cbf;
+    text-align: center;
+    float: left;
+    margin-left: 110px;
+    margin-top: 100px;
+}
+.basic-plan
+{
+   margin: 30px 0px;
+}
+.basic-plan strong
+{
+    font-size: 32px;
+}
+.circle-1
+{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    border: 2px solid #560bad;
+    margin: 35px 85px;
+}
+.nine-dollar
+{
+    margin-top: 20px;
+}
+.nine-dollar strong
+{
+     font-size: 50px;   
+}
+.per-month span
+{
+    font-size: 22px;
+}
+.purchase-now
+{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #7b2cbf;
+    border-radius: 30px;
+    margin: 0px 90px;
+}
+.pricing-table-content span
+{
+    font-size:20px ;
+}
+.purchase-now a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    position: relative;
+    top: 7px;
+    transition: 0.5s;
+}
+.pricing-table-1::after
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 0;
+    transition: 0.5s;
+    background-color: rgb(123, 44, 191, 0.3);
+}
+.pricing-table-1:hover::after
+{
+    visibility: visible;
+    height: 100%;
+}
+.nine-dollar strong
+{
+    color: black;
+    transition: 0.5s;
+}
+.pricing-table-1:hover strong
+{
+    color: #560bad;
+}
+.pricing-table-1:hover .purchase-now a
+{
+    color: #560bad;
+}
+.motion
+{
+    width: 100%;
+    height: 140vh;
+    background-image: url(../iop/375017.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.motion-content
+{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(100, 90, 90,0.5);
+    position: relative;
+}
+.motion-content-1
+{
+    float: left;
+    margin-left: 230px;
+    margin-top:130px;
+}
+.motion-content-img
+{
+    float: left;
+    margin-right: 20px;
+}
+.motion-content-words
+{
+    margin-top: 8px;   
+}
+.motion-content-words h2
+{
+    color: white;
+}
+.motion-content-words h3
+{
+    color: white;
+}
+.motion-content-paragraph
+{
+    margin-top: 30px;
+    width: 350px;
+    height: 70px;
+}
+.montial-container
+{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(126, 113, 113);
+}
+.montial-container
+{
+    background-color: rgb(233, 230, 230);
+}
+.container
+{
+   position: relative; 
+   margin: auto;
+   width: 80%;
+   overflow: hidden;
+}
+.img
+{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.team-item
+{
+    margin-top: 110px;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  text-align: center;
+  padding: 20px 24px;
+  position: relative;
+}
+.team-item::after
+{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: 2s;
+    opacity: 0;
+}
+.team-item:hover::after
+{
+   height: 100%;width: 100%;
+   background-color: rgb(65, 96, 233,0.5);
+   opacity: 0.5;
+}
+.team-item::before
+{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    transition: 3s;
+    opacity: 0;
+}
+.team-item:hover::before
+{
+   height: 100%;width: 100%;
+   background-color: rgb(63, 55, 201,0.5);
+   opacity: 0.5;
+}
+.team-item:hover .overlay
+{
+    visibility: visible;
+    background-color: rgba(71, 63, 63, 0.8);
+}
+.overlay
+{
+   position: absolute;
+   background-color: rgba(71, 63, 63, 0.1);
+   width: 100%;
+   height: 100%;
+   top: 0;
+   visibility: hidden;
+}
+.ww
+{
+    margin: 110px 5%;
+}
+.img img
+{
+    width: 100%;
+}
+.overlay a
+{
+    display:block;
+    width: 40px;
+    height: 40px;
+    background-color: #7209b7;
+    color: white;
+    font-size: 23px;
+    margin-left: auto;
+}
+.overlay a i
+{
+    line-height: 40px;
+}
+.team-info span
+{
+    font-weight: 900;
+    color: black;
+    transition: 2s;
+}
+.team-item:hover .team-info span
+{
+    color: rgb(44, 44, 44);
+}
+.our-team
+{
+    position: relative;
+    top: 30px;
+}
+.our-team strong
+{
+    position: relative;
+    left: 400px;
+   font-size: 45px;
+}
+.our-team hr
+{
+    position: relative;
+    top: 10px;
+    left: 450px;
+    width: 10%;
+}
+.last-div
+{
+    width: 100%;
+    height: 110vh;
+    overflow: hidden;
+}
+.last-div-title
+{
+   width: 100%; 
+   height: 12vh;
+   padding-top: 30px;
+}
+.last-div-title strong
+{
+   position: relative;
+   right: 320px;
+   top: 20px;
+   font-size: 45px;
+}
+.last-div-title hr
+{
+    width: 10%;
+    position: relative;
+    top: 20px;
+    right: 270px;
+}
+.last-div-container
+{
+    height: 98vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);    
+    overflow: auto;
+}
+.last-div-container-img
+{
+    margin-left: 45px;
+}
+.last-div-container-1
+{
+    position: relative;
+    width: 300px;
+    height: 425px;
+    margin-top: 110px;
+    margin-left: 100px;
+    border: 2px solid #7209b7;
+    float: left;
+}
+.last-div-container-1 .last-div-container-icons i
+{
+    color:#7209b7;
+    transition: 1s;
+}
+.last-div-container-paragraph
+{
+   text-align: center; 
+   margin-top: 20px;
+}
+.last-div-container-icons
+{
+    margin-top: 20px;
+    overflow: auto;
+}
+.last-div-container-icons-1
+{
+    float: left;
+    margin-left: 30px;
+}
+.last-div-container-icons-1 span
+{
+    transition: 2s;
+    font-weight: 800;
+}
+.last-div-container-paragraph-1
+{
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+}
+.last-div-container-paragraph-1 h4
+{
+    transition: 1s;
+}
+.last-div-container-link
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.last-div-container-link a
+{
+    text-decoration: none;
+    color: rgb(82, 82, 126);
+    font-size: 18px;
+    transition: 2s;
+}
+.last-div-container-1:hover .last-div-container-link a
+{
+    color: #3f37c9;
+    font-weight: 900;
+}
+.last-div-container-1::after
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 0;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0,0.1);
+}
+.last-div-container-1:hover::after
+{
+    visibility: visible;
+    height: 100%;
+}
+.last-div-container-1:hover i
+{
+   color: #3f37c9;
+}
+.last-div-container-1:hover span
+{
+   color: #3f37c9;
+   font-weight: 900;
+}
+.last-div-container-link a
+{
+   transition: 1s;
+   font-weight: 800;
+}
+.mohy
+{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(253, 251, 251);
+    overflow: auto;
+}
+.mohy-img
+{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 520px;
+}
+.mohy-icon
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.mohy-icon i
+{
+    font-size: 60px;
+    position: relative;
+    color: #b5179e;
+    transition: 1s;
+}
+.mohy-icon-1
+{
+    width: 55px;
+    height: 55px;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+}
+.mohy-icon-parent
+{
+    overflow: auto;
+    margin-top: 40px;
+    margin-left: 480px;
+}
+.mohy-icon-1 i
+{
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+    transition: 1s;
+}
+.mohy-icon-1:hover i
+{
+     color: #b5179e;
+}
+.copyright
+{
+    margin-top: 20px;
+    text-align: center;
+}
